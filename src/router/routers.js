@@ -16,6 +16,11 @@ const routes = [
     path: '/',
     name: "首页",
     component: () => import(/* webpackChunkName: "task"*/ '../views/task/task.vue')
+  },
+  {
+    path: '/test',
+    name: "测试",
+    component: () => import(/* webpackChunkName: "task"*/ '../views/test/mainPage.vue')
   }
 ]
 export default routes
